@@ -1,4 +1,4 @@
-export default function parse(text) {
+export default function parse(/** @type {String} */ text) {
   const points = [];
   let minX;
   let maxX;
